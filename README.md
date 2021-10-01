@@ -10,7 +10,6 @@ Today I Worked
 
 # 211001
 - html페이지가 교차되서 출력되는 파일 발견. 이유 찾아보기
-![html body](https://t1.daumcdn.net/cfile/tistory/261BFE435539390B1B)
 -> body 에서 출력되는 순서가 있다. \<header\> 다음에 \<nav\>
 - what is iframe? 
 - 처리과 결과출력 페이지를 구분하기 위해 iframe이 닫히면 리다이렉트 하는 법을 찾는 중..
