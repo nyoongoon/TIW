@@ -23,3 +23,9 @@ Today I Worked
 
 # 211013
 - aquanplay api로 북마크 기능 추가. 
+
+# 211029
+- CORS 이슈가 있었음
+- I finally found the answer, in this RFC about CORS-RFC1918 from a Chrome-team member. To sum it up, Chrome has implemented CORS-RFC1918, which prevents public network resources from requesting private-network resources - unless the public-network resource is secure (HTTPS) and the private-network resource provides appropriate (yet-undefined) CORS headers
+- There's also a Chrome flag you can change to disable the new behavior for now: chrome://flags/#block-insecure-private-network-requests
+- https가 아니거나 올바른 cors헤더가 아닐 경우, 퍼블릭 네트웍이 프라이빗 네트웍에 요청을 보내는 것을 크롬이 막는다.. 
